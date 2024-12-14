@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Section */
+.hero {
+    background-color: #f1f3f6;
+    color: #6c6c6c;
+    text-align: center;
+    padding: 20px 0;
+}
+.hero h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+.hero p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+/* Hero Story Section */
+#hero-story {
+    padding: 20px;
+    text-align: center;
+    background-color: #e6f2ff;
+}
+#hero-story img {
+    width: 200px; /* Reduced width to make the image smaller */
+    height: auto;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+#hero-story p {
+    font-size: 1.4em;
+}
+
+/* Game Highlights Section */
+#highlights {
+    padding: 20px;
+    background-color: #ffffff;
+}
+#highlights h2 {
+    text-align: center;
+    color: #002255;
+}
+#highlights ol {
+    font-size: 1em;
+    padding-left: 20px;
+}
+#highlights ul {
+    margin-top: 5px;
+    padding-left: 20px;
+    list-style-type: circle;
+}
+
+/* Embedded Video Section */
+#video {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f8ff;
+}
+#video iframe {
+    border: 2px solid #002255;
+    border-radius: 8px;
+}
+
+/* Tableau Section */
+#tableau {
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+#tableau iframe {
+    border: 2px solid #002255;
+    border-radius: 8px;
+}
+
+/* Footer Navigation */
+footer {
+    background-color: #002255;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+footer nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+footer nav a:hover {
+    text-decoration: underline;
+}
